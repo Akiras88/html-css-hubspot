@@ -1,0 +1,92 @@
+/* general settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Ubuntu';
+  font-size: 16px;
+  color: gray;
+}
+
+/* utilities */
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.container-small {
+  height: 70px;
+  margin: 0 auto;
+  border-bottom: 1px solid #32495b;
+}
+.float-left {
+  float: left;
+}
+.btn-small {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 6px 5px;
+  border: 1px solid #fe775a;
+  background-color:#fe775a;
+  line-height: 23px;
+  text-decoration: none;
+  color: #fff;
+}
+.btn-transparent{
+  background: none;
+  color: #fe775a;
+}
+.menu-inline .btn-small:hover {
+  color: black;
+}
+/* style main header */
+#main-header {
+  height: 560px;
+  background-color: ;
+  background-image: url('../img/background-header.png');
+  background-position: 110% 110%;
+  background-size: 1000px;
+  background-repeat: no-repeat;
+}
+.upper-nav {
+  height: 70px;
+  font-size: 90%;
+  line-height: 70px;
+  background-color: #f4f9fd;
+  border-bottom: 1px solid #32495b;
+}
+.upper-nav .nav-left a {
+  text-decoration: none;
+  color: #495d6d;
+}
+.upper-nav a:hover,
+.upper-nav a:active,
+.upper-nav a:focus {
+  color: #e3ba3c;
+}
+.upper-nav .nav-left {
+  width: 50%;
+  margin-left: 50px;
+}
+/* menu inline upper nav */
+.menu-inline {
+  list-style: none;
+  margin: 0 70px;
+  position: relative;
+}
+.menu-inline li {
+  display: inline-block;
+  padding: 0 10px;
+}
+.upper-nav .nav-right {
+  width: 40%;
+  text-align: right;
+}
+.nav-left .menu-inline:nth-child(2) {
+  color: #899397;
+}
+.nav-right .menu-inline:first-child {
+  color: #0aa9c0;
+}
