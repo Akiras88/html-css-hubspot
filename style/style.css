@@ -122,6 +122,24 @@ body {
   background-color: #fff4ef;
   background-image: url('../img/jumbotron.png');
   background-position: 100% 0;
-  background-size: 1520px 620px;
+  background-size: 1520px 700px;
   background-repeat: no-repeat;
+}
+
+/* style jumbotron */
+.jumbotron {
+  position: relative;
+  height: 500px;
+}
+.jumbotron-text {
+  width: 35%;
+  position: absolute;
+  top: 30%;
+  left: 120px;
+  transform: translateY(-50%);
+}
+.jumbotron-text h1 {
+  margin-bottom: 30px;
+  font-size: 300%;
+  color: #000;
 }
