@@ -41,14 +41,9 @@ body {
 .menu-inline .btn-small:hover {
   color: black;
 }
-/* style main header */
-#main-header {
-  height: 560px;
-  background-color: ;
-  background-image: url('../img/background-header.png');
-  background-position: 110% 110%;
-  background-size: 1000px;
-  background-repeat: no-repeat;
+/* style upper and second nav */
+.upper-menu {
+  height: 140px;
 }
 .upper-nav {
   height: 70px;
@@ -60,6 +55,7 @@ body {
 .upper-nav .nav-left a {
   text-decoration: none;
   color: #495d6d;
+  font-weight: 650;
 }
 .upper-nav a:hover,
 .upper-nav a:active,
@@ -70,6 +66,31 @@ body {
   width: 50%;
   margin-left: 50px;
 }
+.second-nav {
+  height: 70px;
+  font-size: 90%;
+  line-height: 70px;
+  background-color: #fff;
+}
+.second-nav .header-logo {
+  width: 20%;
+}
+.second-nav .header-logo img {
+  margin: 20px 0 0 130px;
+}
+.second-nav .second-nav-right {
+  width: 60%;
+  position: absolute;
+  right: 100px;
+  top: 70px;
+  text-align: right;
+}
+.second-nav .second-nav-right a{
+  text-decoration: none;
+  color: #495d6d;
+  font-weight: 650;
+}
+
 /* menu inline upper nav */
 .menu-inline {
   list-style: none;
@@ -89,4 +110,18 @@ body {
 }
 .nav-right .menu-inline:first-child {
   color: #0aa9c0;
+}
+.second-nav a:hover,
+.second-nav a:active,
+.second-nav a:focus {
+  color: #e3ba3c;
+}
+/* style main header */
+#main-header {
+  height: 700px;
+  background-color: #fff4ef;
+  background-image: url('../img/jumbotron.png');
+  background-position: 100% 0;
+  background-size: 1520px 620px;
+  background-repeat: no-repeat;
 }
