@@ -174,7 +174,7 @@ body {
 }
 .col-sx img {
   position: relative;
-  height: 80px;
+  height: 100px;
   left: 30%;
   margin-top: 30px;
 }
@@ -222,16 +222,25 @@ body {
 }
 .w-3 p{
   color: #3a4e61;
-  padding: 35px;
+  padding: 35px 35px 80px;
 }
 .img-column{
   padding-top: 20px;
-  height: 80px;
+  height: 120px;
   margin-bottom: 20px;
 }
 .column-center {
   margin: 0 40px;
 }
+.menu-list {
+  padding: 20px;
+  color: #3a4e61;
+}
+.menu-list li{
+  list-style: none;
+  text-align: left;
+}
+
 /* debug elements remove after */
 .box{
   width: 100%;
