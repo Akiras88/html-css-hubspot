@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
+  <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style/style.css">
     <!-- icons set -->
@@ -9,47 +8,44 @@
     <!-- ubuntu font -->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap" rel="stylesheet">
     <title>HubSpot</title>
-</head>
+  </head>
 
-<body>
-  <div class="upper-menu">
-    <!-- header navs -->
-    <div class="container-small">
-      <div class="upper-nav clearfix">
-        <!-- upper nav left -->
-        <div class="nav-left float-left">
-          <nav>
-            <ul class="menu-inline">
-              <li id="line"><a href="#"><i class="fas fa-globe-europe"></i> English <i class="fas fa-angle-down"></i></a></li>
-              <li>|</li>
-              <li><a href="#">Contact Us</a></li>
-            </ul>
-          </nav>
-        </div>
-        <!-- upper nav right -->
-        <div class="nav-right float-left">
-          <nav>
-            <ul class="menu-inline">
-              <li><i class="fas fa-search"></i></li>
-              <li><a class="btn-small btn-transparent" href="#">Log In</a></li>
-              <li><a class="btn-small" href="#">GetHubspotFree</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </div>
-      <!-- end upper nav menu -->
-
-      <!-- second container with logo and nav -->
-      <div class="container-small">
-        <div class="second-nav clearfix">
-          <div class="header-logo">
-            <img src="img/logo.svg" alt="logo">
-          </div>
-          <!-- second nav upper header -->
-          <div class="second-nav-right float-left">
+  <body>
+    <!-- start header -->
+    <header>
+      <!-- top nav menu -->
+      <div class="header-top-nav">
+        <div class="container clearfix">
+          <div class="w-50 float-left">
             <nav>
               <ul class="menu-inline">
+                <li id="line"><a href="#"><i class="fas fa-globe-europe"></i> English <i class="fas fa-angle-down"></i></a></li>
+                <li id="color">|</li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="w-50 right float-left">
+            <nav>
+              <ul class="menu-inline">
+                <li id="search"><i class="fas fa-search"></i></li>
+                <li><a id="color-orange" class="btn-small btn-transparent" href="#">Log In</a></li>
+                <li><a id="color-white" class="btn-small" href="#">GetHubspotFree</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <!-- bottom nav -->
+      <div class="header-bottom-nav">
+        <div class="container clearfix">
+          <div class="w-50 float-left">
+            <img src="img/logo.svg" alt="logo">
+          </div>
+          <div class="w-50 right float-left">
+            <nav>
+              <ul class="menu-inline second-nav">
                 <li><a href="#">Software <i class="fas fa-angle-down"></i></a></li>
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">Resources <i class="fas fa-angle-down"></i></a></li>
@@ -60,24 +56,75 @@
           </div>
         </div>
       </div>
-  </div>
 
-  <!--start main header -->
-  <header id="main-header">
-    <div class="jumbotron">
-      <div class="jumbotron-text">
-        <h1>There's a better way to grow.</h1>
-
+      <!-- jumbotron -->
+      <div class="jumbotron">
+        <div class="container">
+          <div class="content">
+              <h1>There's a better way to grow.</h1>
+              <p class="line-spacing">Marketing, sales, and service software that helps your business grown without compromise. Because "good for the business" should also mean "good for the customer".</p>
+              <div class="button">
+                <a class="btn-large" href="#">GetHubspotFree</a>
+              </div>
+              <p class="text-small">Get started with FREE tools, and upgrade as you grow.</p>
+          </div>
+        </div>
       </div>
-    </div>
+      <!-- bottom header -->
+      <div class="bottom-header"></div>
+    </header>
+    <!-- end header -->
 
-  </header>
+    <!-- start main -->
+    <main>
+      <!-- section info -->
+      <section id="info">
+        <div class="container clearfix">
+          <img id="cube" src="img/Integrations_Illustration.webp" alt="cube">
+          <div class="middle-title">
+            <h2>Powerful Alone. Better Together</h2>
+            <p>HubSpot offers a full stack of software for marketing, sales, and customer service, with a completely free CRM at its core. They're powerful alone - but even better when used together</p>
+          </div>
+          <!-- center main left -->
+          <div class="info-box-full clearfix">
+            <div class="col-sx float-left">
+              <img src="img/CRM-Illustration.svg" alt="book">
+              <div class="button">
+                <a class="btn-large" href="#">Learn More</a>
+              </div>
+            </div>
+            <!-- center main right -->
+            <div class="col-dx float-left">
+              <h3 class="small-title">Free HubSpot CRM</h3>
+              <p class="line-spacing">Everything you need to organize, track, and build better relationship with leads and customers. Yes, it's 100% free. Forever.</p>
+              <p class="line">POPOLAR FEATURE</p>
+              <nav>
+                <ul class="menu-inline">
+                  <li><i class="fas fa-check-circle orange"></i> Contact insight</li>
+                  <li><i class="fas fa-check-circle orange"></i> Deals</li>
+                  <li><i class="fas fa-check-circle orange"></i> Task</li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="w-3 float-left">
+            <div class="box">col sx</div>
+          </div>
+          <div class="w-3 float-left">
+            <div class="box-2">col center</div>
+          </div>
+          <div class="w-3 float-left">
+            <div class="box-3">col dx</div>
+          </div>
+        </div>
+      </section>
 
 
 
+    </main>
 
 
 
-
-</body>
+  </body>
 </html>
