@@ -26,9 +26,6 @@ body {
 .w-50 {
   width: 50%;
 }
-.w-3 {
-  width: calc(100% / 3);
-}
 .right {
   text-align: right;
 }
@@ -213,6 +210,27 @@ body {
 .col-dx .menu-inline {
   color: #3a4e61;
   padding-bottom: 50px;
+}
+/* columns left main */
+.w-3 {
+  width: 373px;
+  background: #fff;
+  border: 1px solid #e7edf2;
+  border-radius: 7px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.w-3 p{
+  color: #3a4e61;
+  padding: 35px;
+}
+.img-column{
+  padding-top: 20px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+.column-center {
+  margin: 0 40px;
 }
 /* debug elements remove after */
 .box{
